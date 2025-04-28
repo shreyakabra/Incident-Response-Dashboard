@@ -15,7 +15,7 @@ with open("app/style.css") as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 # Load preprocessed data
-df = pd.read_csv(r'C:\Users\HP\Desktop\Incident-Response-Dashboard\data\feature_engineered_incident_data.csv')
+df = pd.read_csv(r'data/feature_engineered_incident_data.csv')
 
 # Convert 'timestamp' column to datetime
 df['timestamp'] = pd.to_datetime(df['timestamp'])
