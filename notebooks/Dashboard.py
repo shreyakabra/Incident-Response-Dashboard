@@ -16,7 +16,6 @@ with open("app/style.css") as f:
 
 # Load preprocessed data
 df = pd.read_csv(r'data/feature_engineered_incident_data.csv')
-473ba71 (Update Streamlit Dashboard and project changes)
 
 # Convert 'timestamp' column to datetime
 df['timestamp'] = pd.to_datetime(df['timestamp'])
