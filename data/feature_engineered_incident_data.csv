@@ -1,4 +1,4 @@
-﻿,timestamp,protocol,port,attack_type,severity,event_type,hour,day_of_week,day,month,attack_type_encoded,event_type_encoded,protocol_encoded,severity_rolling_avg,lag_1_attack_type,lag_2_attack_type
+,timestamp,protocol,port,attack_type,severity,event_type,hour,day_of_week,day,month,attack_type_encoded,event_type_encoded,protocol_encoded,severity_rolling_avg,lag_1_attack_type,lag_2_attack_type
 0,2025-04-21 12:01:42.053741,TCP,7711,Normal,1.63,File Transfer,12,0,21,4,3,1,1,0.7166666666666667,3.0,3.0
 1,2025-04-21 12:02:40.053741,UDP,614,Normal,0.03,File Transfer,12,0,21,4,3,1,2,0.7166666666666667,3.0,3.0
 2,2025-04-21 12:03:30.053741,TCP,3539,Normal,0.49,File Transfer,12,0,21,4,3,1,1,0.7166666666666667,3.0,3.0
